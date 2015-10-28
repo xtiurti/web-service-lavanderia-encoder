@@ -1,0 +1,58 @@
+/**
+ * @font
+ */
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela Round'), local('VarelaRound-Regular'), url('font/varela_round.woff2') format('woff2');
+}
+*:not(.material-icons) { font-family: 'Varela Round', sans-serif !important; }
+
+/**
+ * @basic
+ */
+hr { height: 1px; border: none; background-color: #ddd; margin: 10px 0; }
+.smooth-text { color: #888 !important; }
+.text-small { font-size: 80% !important; }
+.pull-right { float: right; }
+.pull-left { float: left; }
+.relative { position: relative; }
+.centered { display: table; margin: 0 auto; }
+
+.info_painel { border: 1px solid #2196F3; padding: 10px; border-style: dashed; border-radius: 4px; }
+form .painel { background-color: #fff; padding: 20px 40px; margin-bottom: 10px; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); }
+
+/**
+ * @dropDown
+ */
+.dropdown { display: table; cursor: pointer; position: relative; }
+.dropdown .title { display: table; margin: 0 auto; }
+.dropdown .menu { display: table; position: absolute; padding: 5px 0; background: #fff; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); border-radius: 2px; z-index: 9; }
+.dropdown .menu .item { color: #777; font-weight: bold; font-size: 13px; display: table !important; padding: 7px 20px; width: 100%; text-align: left; white-space: nowrap; position: relative; }
+.dropdown .menu .item:hover { background: #eee; }
+.dropdown .menu .item .material-icons { position: absolute; left: 16px; top: 6px; }
+.dropdown.icon .menu .item { padding: 9px 20px 9px 55px; text-align: right; }
+
+
+/**
+ * @pageLoader
+ */
+page-loader { position: fixed; width: 100%; background-color: #f0f0f0; z-index: 10; height: 100%; top: 0px; left: 0px; }
+page-loader content { margin: 0 auto; display: table; margin-top: 25%; }
+
+
+/**
+ * @overwriteMaterializeCSS
+ */
+/* <!-- l:desktop m:tablet s:mobile --> */
+.btn { font-weight: 800; }
+#toast-container { margin-top: 5% !important; }
+table th { text-transform: uppercase; font-size: 75%; }
+table.hoverable tr:hover { background: #ddd !important; }
+.material-icons:hover:not(.disabled) { color: #333 !important; }
+.fixed { position: fixed; }
+.fixed.bottom { bottom: 20px; }
+.fixed.bottom.right { right: 20px; }
+
+/* column md types >  l:desktop m:tablet s:mobile */

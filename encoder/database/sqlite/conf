@@ -1,0 +1,2 @@
+Debian
+$ apt-get install sqlite php5-sqlite
