@@ -6,10 +6,7 @@
     
     <h4>
         <small class="grey-text">
-            Bem Vindo a lavanderia Ple'ts Gummerssss Teste Victos
+            Bem Vindo a lavanderia Ple'ts Gummer
         </small>
     </h4>
-</div>
-<div>
-    Inserção
 </div>
